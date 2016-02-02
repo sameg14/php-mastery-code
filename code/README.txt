@@ -1,0 +1,1 @@
+This folder is where you can write all the code we work on in class and can also include homework examples.
