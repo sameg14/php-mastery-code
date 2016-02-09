@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/shop":{"guestpath":"/var/www/shop","hostpath":"/htdocs/php-mastery-code/shop","disabled":false},"/var/www/code":{"guestpath":"/var/www/code","hostpath":"/htdocs/php-mastery-code/code","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/htdocs/php-mastery-code","disabled":false}}}
