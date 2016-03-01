@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<input type="button" id="clickMe" class="btnz" value="Click Me!"/>
+
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script>
+
+    $("#clickMe").on('click', function(){
+
+        $.ajax({
+            url: "server.php",
+            dataType: "json",
+            data: {
+                action : 'get_scores',
+                score: 123,
+                student : 'Samir Patel'
+            },
+            success: function(jsonData) {
+
+                var time = jsonData.time;
+
+                $("#timez").append(time + '<br/>');
+            }
+        });
+
+    });
+
+</script>
+
+<div id="timez"></div>
+
+</body>
+
+</html>
